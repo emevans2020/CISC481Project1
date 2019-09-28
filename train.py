@@ -8,6 +8,7 @@ yard3 = [(1,2), (1,3)]
 yard4 = [(1,2), (1,3), (1,4)]
 yard5 = [(1,2), (1,3), (1,4)]
 
+# simple problem solving agent
 def possible-actions(Yard, State):
-	
+
 	return actions
