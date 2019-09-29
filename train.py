@@ -31,6 +31,7 @@ yardFive = {"1": ["2","3","4"],
 			"3": [],
 			"4": []
 }
+# make function called contains to check if * is contained -- have boolean return value
 
 # percept - agent's perceptual inputs at any given instance. An agent's percept sequence is the complete
 # history of everything the agent has ever perceived
@@ -38,3 +39,12 @@ yardFive = {"1": ["2","3","4"],
 def possible-actions(Yard, State):
 	
 	return actions
+
+def left (x,y):
+	if (contains == true){
+		#do something
+	}
+	else if{
+	}
+	
+	
