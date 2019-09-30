@@ -1,4 +1,4 @@
-# Emily Evans and Sasha Jones			Due: September 28
+# Emily Evans and Sasha Jones			Due: October 1
 
 # List of points that are mapped to each other. 
 # Our goal is to get from any point to the goal point, in this case 5
@@ -15,7 +15,35 @@ Yard5 = [(1,2), (1,3), (1,4)]
 
 print ("Hello World")
 
+# dictionary version of the yards below
+yardOne = {	"1": ["2","3"],
+			"2": ["6"],
+			"3": ["5"],
+			"4": ["5"],
+			"5": ["6"],
+			"6": []
+}
+yardThree = {"1": ["2","3"], 
+			"2": [],
+			"3":[]
+}
+yardFour = {"1": ["2","3","4"],
+			"2": [],
+			"3": [],
+			"4": []
+}
+
+yardFive = {"1": ["2","3","4"],
+			"2": [],
+			"3": [],
+			"4": []
+}
+# make function called contains to check if * is contained -- have boolean return value
+
+# percept - agent's perceptual inputs at any given instance. An agent's percept sequence is the complete
+# history of everything the agent has ever perceived
 # simple problem solving agent
+<<<<<<< HEAD
 #Consumes a yard and a State and returns a list of all actions possible
 
 def possible_actions (Yard, State):
@@ -85,3 +113,17 @@ def TESTleft(y,x):
 
 
 
+=======
+def possible-actions(Yard, State):
+	
+	return actions
+
+def left (x,y):
+	if (contains == true){
+		#do something
+	}
+	else if{
+	}
+	
+	
+>>>>>>> abbe286e18732672f262a7e13857c1d68c740807
