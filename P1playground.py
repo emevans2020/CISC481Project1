@@ -2,6 +2,8 @@
 #Sasha Jones
 #September 29th, 2019
 #CISC 481
+#Program 1 {layground
+#Due: Tuesday, October 8th, 2019
 
 #This is just a testing playground for Program 1
 
