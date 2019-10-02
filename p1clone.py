@@ -9,6 +9,7 @@
 # Yard 3 
 Yard3 = [(1,2), (1,3)] # Connections
 INIT_STATE_3 = [ ("*"),("a"),("b")] #initial state
+CurrState = INIT_STATE_3[:]
 GOAL_STATE_3 = [("*","a","b"),"",""] #goal state
 
 Yard4 = [(1,2), (1,3), (1,4)]
@@ -88,4 +89,12 @@ def TESTleft(y,x):
     print("the Cuurent State now is :\n", CurrState)
 
 
+
+def TESTright(x,y):
+
+    LaOfx = CurrState[x-1].pop() #index of last car on track x
+    print("LaOfx is :", LaOfx)
+
+    CurrState[y-1].insert(0,LaOfx)
+    print("the Current State now is :\n", CurrState)
 
