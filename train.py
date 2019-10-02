@@ -13,7 +13,6 @@ GOAL_STATE_3 = [("*","a","b"),"",""] #goal state
 Yard4 = [(1,2), (1,3), (1,4)]
 Yard5 = [(1,2), (1,3), (1,4)]
 
-print ("Hello World")
 
 # dictionary version of the yards below
 yardOne = {	"1": ["2","3"],
