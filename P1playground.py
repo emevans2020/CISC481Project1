@@ -2,22 +2,11 @@
 #Sasha Jones
 #September 29th, 2019
 #CISC 481
-#Program 1 playground
+#Program 1 Playground
 #Due: Tuesday, October 8th, 2019
 
 #This is just a testing playground for Program 1
 
-print ("Hello World")
-
-
-
-def addme ( int1, int2):
-    "adds 2 numbers together and prints the result"
-    sum = int1 + int2
-    print (sum)
-    return;
-
-addme(7,3)
 
 Yard3 = [(1,2), (1,3)] # Connections
 INIT_STATE_3 = [["*"],["a"],["b"]] #initial state
