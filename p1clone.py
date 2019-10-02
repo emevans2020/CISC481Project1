@@ -14,7 +14,6 @@ GOAL_STATE_3 = [("*","a","b"),"",""] #goal state
 Yard4 = [(1,2), (1,3), (1,4)]
 Yard5 = [(1,2), (1,3), (1,4)]
 
-print ("Hello World")
 
 # simple problem solving agent
 #Consumes a yard and a State and returns a list of all actions possible
@@ -23,7 +22,14 @@ def possible_actions (Yard, State):
 
     actions = []
 
-    # for connections in list, see if there 
+    # for connections in list, see if there is an engine on either track.
+        #If there Is an engine
+        #Then see the connections with its neighbors
+            #Then see if you can move left and/or right
+            # DO NOT include moving on to an empty state
+                #ex, moving left from 2 to 1 when there is no car on 2
+
+    
 
     
     
@@ -82,5 +88,4 @@ def TESTleft(y,x):
     print("the Cuurent State now is :\n", CurrState)
 
 
-    #hello World
-    #will this work?
+
