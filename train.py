@@ -3,7 +3,7 @@
 # Our goal is to get from any point to the goal point, in this case 5
 
 # Yard1 = [(1,2),(1,3),(3,5),(4,5),(2,6),(5,6)]  dont think about testing yard 1 until you figure out yards 3,4,5
-
+# WE DON'T NEED TO HAVE FUNCTIONS LEFT AND RIGHT!
 # Yard 3 
 Yard3 = [(1,2), (1,3)] # Connections
 INIT_STATE_3 = [ ("*"),("a"),("b")] #initial state
@@ -71,11 +71,10 @@ def contains (Yard, State):
 # percept - agent's perceptual inputs at any given instance. An agent's percept sequence is the complete
 # history of everything the agent has ever perceived
 # simple problem solving agent
-<<<<<<< HEAD
+
 def possible-actions(Yard):
 	initState = State
-=======
-<<<<<<< HEAD
+
 #Consumes a yard and a State and returns a list of all actions possible
 
 def possible_actions (Yard, State):
@@ -141,14 +140,8 @@ def TESTleft(y,x):
     print("the Cuurent State now is :\n", CurrState)
 
 
-
-
-
-
-=======
 def possible-actions(Yard, State):
 	
->>>>>>> 2de27a3762109eebe077755468f270b91f1a2c0a
 	return actions
 
 def left (x,y):
@@ -157,6 +150,3 @@ def left (x,y):
 	}
 	else if{
 	}
-	
-	
->>>>>>> abbe286e18732672f262a7e13857c1d68c740807
