@@ -20,9 +20,8 @@ print ("Hello World")
 #Consumes a yard and a State and returns a list of all actions possible
 
 def possible_actions (Yard, State):
-
     actions = []
-
+	
     # for connections in list, see if there 
 
     
@@ -46,7 +45,6 @@ def left(y,x): # remove last car
 
     CurrState[x-1].append(StOfy)
     print(CurrState)
-
 
     return 0
 
